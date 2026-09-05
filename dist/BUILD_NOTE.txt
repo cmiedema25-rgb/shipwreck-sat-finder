@@ -1,0 +1,2 @@
+Android SDK not detected on build machine. AAB not produced here.
+Use Android Studio per docs/PLAY_STORE.md

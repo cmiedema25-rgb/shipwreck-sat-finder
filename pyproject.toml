@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shipwreck-sat-finder"
+version = "0.1.0"
+description = "Sentinel-2 shipwreck candidate detection with NOAA AWOIS catalog ship identification (research demo)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "cmiedema25" }]
+dependencies = [
+  "numpy>=1.24",
+  "Pillow>=10.0",
+  "rasterio>=1.3",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pystac-client>=0.7",
+  "planetary-computer>=1.0",
+  "requests>=2.31",
+  "shapely>=2.0",
+  "pyproj>=3.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "httpx>=0.27"]
+gradio = ["gradio>=4.0"]
+
+[project.scripts]
+shipwreck-sat-finder = "shipwreck_sat_finder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+shipwreck_sat_finder = ["static/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,54 @@
+{
+  "scenes": [
+    {
+      "scene_id": "cape_henry_approaches",
+      "n_catalog": 24,
+      "n_detections": 20,
+      "detection_metrics": {
+        "tp": 1,
+        "fp": 19,
+        "fn": 23,
+        "precision": 0.05,
+        "recall": 0.0417,
+        "f1": 0.0455,
+        "match_radius_px": 45.0
+      },
+      "identification_metrics": {
+        "precision_at_1": 1.0,
+        "n_eval": 1,
+        "n_correct": 1
+      },
+      "named_examples": [
+        "THOMAS F. POLLARD",
+        "WESTMORELAND",
+        "E H BLUM",
+        "OCEAN BELLE",
+        "JOANNA H. CANN"
+      ]
+    }
+  ],
+  "aggregate_detection": {
+    "scenes": 1,
+    "tp": 1,
+    "fp": 19,
+    "fn": 23,
+    "precision": 0.05,
+    "recall": 0.0417,
+    "f1": 0.0455,
+    "per_scene": [
+      {
+        "tp": 1,
+        "fp": 19,
+        "fn": 23,
+        "precision": 0.05,
+        "recall": 0.0417,
+        "f1": 0.0455
+      }
+    ]
+  },
+  "aggregate_identification": {
+    "precision_at_1": 1.0,
+    "n_eval": 1,
+    "n_correct": 1
+  }
+}

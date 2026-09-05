@@ -1,0 +1,18 @@
+{
+  "name": "shipwreck-sat-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Capacitor shell for Shipwreck Sat Finder Android / Play Store AAB",
+  "scripts": {
+    "build:web": "node -e \"console.log('www/ already prepared')\"",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

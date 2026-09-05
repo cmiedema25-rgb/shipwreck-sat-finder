@@ -1,0 +1,7 @@
+{
+  "appId": "com.cmiedema25.shipwrecksatfinder",
+  "appName": "Shipwreck Sat Finder",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": true }
+}

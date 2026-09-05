@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ShipwreckSatFinder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0b1e33</item>
+        <item name="android:statusBarColor">#0b1e33</item>
+        <item name="android:navigationBarColor">#07131f</item>
+    </style>
+</resources>
